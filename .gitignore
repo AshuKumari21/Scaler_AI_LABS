@@ -1,0 +1,38 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*
+!.env.example
+*.env
+
+# Python / Backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+backend/venv/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+*.db
+backend/*.db
+meetflow.db
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+frontend/out/
+frontend/build/
+.next_cache/
+
+# System / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
